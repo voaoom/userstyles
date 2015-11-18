@@ -1,0 +1,8 @@
+/*
+	Этот стиль предназначен для ускорения графики и отключения ненужных свистоперделок.
+
+	@import "https://github.com/voaoom/userstyles/raw/имя_ветки/plus.google.com/fast-graphics.css"
+*/
+
+	/* Отключаем все тени, переходы и анимации. */
+* { box-shadow: none !important; transition: none !important; animation: none !important; }

@@ -1,0 +1,81 @@
+/*
+	Этот стиль предназначен для уменьшения размера отступов.
+	Моногие элементы в дизайне с приличным осступом, что не всегда красиво.
+	Этот стиль делает мнгие отступы меньше.
+
+	@import "https://github.com/voaoom/userstyles/raw/имя_ветки/plus.google.com/less-paddings.css"
+*/
+
+
+/***  Модальное окно постинга ***/
+
+	/* Меньшие поля вокруг панели постинга в ленте */
+.yYUaOb { padding: 5px !important; }
+
+	/* Меньшие поля вокруг заголовка окна постинга */
+.ze2CRd { padding: 5px 5px 5px 5px !important; }
+
+	/* Меньшие поля вокруг поля ввода текста в окне постинга*/
+.PjjVcd { margin: 0 5px !important; }
+
+/***  Лента и Посты ***/
+
+	/* Меньшие поля вокруг заголовка поста с ник-неймом и подборкой + полоска-разделитель */
+.dzuq1e.sw0FGe { margin: 0 !important; padding: 5px !important; border-bottom: 1px solid #ebebeb;	}
+
+	/* Меньшие поля вокруг заголовка ссылки поста */
+.X2MVjb { margin: 0 !important; }
+.IJZbFe { margin: 5px !important; }
+
+	/* Меньшие поля вокруг банера с именем хоста, куда ведет ссылка */
+.R7aZJe { margin: 5px !important; }
+
+	/* Меньшие поля текстового контента поста */
+.ELUvyf { margin: 5px !important; }
+
+	/* Меньшие поля вокруг "Запись из ленты ..." */
+.zadoib { margin: 0 5px 5px 5px !important; }
+
+	/* Меньшие поля вокруг панели кнопок внизу поста */
+.KwDIr { margin: 5px 5px !important; }
+
+	/* Меньшие поля вокруг самих кнопок внизу поста */
+.KRktze { margin: 0 1px !important; }
+
+	/* Меньшие поля вокруг "Доступно ..." и "Посмотреть действия" в посте + полоска-раделитель  */
+.sEgqod { padding: 5px 5px !important; border-top: 1px solid #ebebeb; }
+
+	/* Меньшие поля вокруг пред-просмотра комментариев в посте */
+.LZOeXd { height: 50px !important; }
+.WhylY { top: 5px !important; bottom: 5px !important; left: 5px !important; right: 5px !important; }
+
+	/* Меньшие поля вокруг "Посмотреть ... комментария" / "Скрыть ... комментария" + полоска-раделитель */
+.Fp87Ue { padding: 5px !important; border-top: 1px solid #ebebeb; }
+
+	/* Меньшие поля вокруг комментариев в посте + полоска-раделитель */
+.M24KRd { padding: 5px !important; border-top: 1px solid #ebebeb; }
+
+	/* Меньшее растояние между текстом комментария и аватаркой в комментариях к посту */
+.wfbd1c { margin-left: 5px !important; }
+
+		/* Меньшие поля вокруг формы отправки комментария в посте */
+.bKF80 { padding: 5px 5px !important; }
+.GmzUTd { margin: 0 !important; }
+
+	/* Менее круглая аватарка в форме отправки комментария в посте */
+.FhCbmb { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+
+/*** Всплывающие меню - меньшие поля вокруг пунктов ***/
+/* Требует доработки, криво */
+
+.JAPqpe { padding: 5px 0 !important; }
+.z80M1 { padding: 0 5px !important; }
+.uyYuVb { line-height: 25px !important; height: 25px !important; }
+
+.z80M1.N2RpBe::before { height: 10px; left: 20px; top: 15%; width: 5px;}
+
+/*** Иконка для постинга в правом нижнем углу ***/
+
+		/* Ближе к углу */
+@media (min-width: 768px) { .jXDCJf { bottom: 10px !important; right: 10px !important; } }

@@ -1,0 +1,16 @@
+/*
+	Этот стиль предназначен для уменьшения размера верхней панели.
+
+	@import "https://github.com/voaoom/userstyles/raw/имя_ветки/plus.google.com/less-top-panel.css"
+*/
+
+	/* Контейнеры */
+/* .ecJEib .rDQqN, .ecJEib .pWgqe { height: 48px !important; } */
+/* .ecJEib .FGhx7c { height: 48px !important; } */
+/* .gb_qd>.gb_R { height: 48px !important; } */
+
+	/* Меньшая по высоте строка поиска */
+/* .YRgYyc { height: 32px !important; } */
+
+	/* Кориктеровка смещения боковой панели */
+/* .u5oEgd { top: 48px !important; } */

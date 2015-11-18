@@ -1,0 +1,32 @@
+/*
+	Этот стиль предназначен для уменьшения скругления элеметов.
+	Моногие элементы в дизайне круглые, что не очень красиво.
+	Этот стиль делает эти объекты полу-круглыми (25% вместо 50%).
+
+	@import "https://github.com/voaoom/userstyles/raw/имя_ветки/plus.google.com/less-circles.css"
+*/
+
+/*** АВАТАРЫ ***/
+
+	/* Менее круглая иконка-аватарка профиля на фиксированной верхней панели */
+.gb_Ka { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+	/* Менее круглая аватарка в загаловке модального окна постинга */
+.ldWYrc { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+	/* Менее круглые аватарки в заголовках сообщений */
+.URgs7 { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+	/* Менее круглые аватарки в пред-просмотрах комментариев в посте */
+.dZx6K { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+	/* Менее круглая аватарка в форме отправки комментария в посте */
+.FhCbmb { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+/*** КНОПКИ ***/
+
+	/* Менее круглые кнопки внизу сообщений (плюсы, комментарии) */
+.mUbCce { -webkit-border-radius: 25% !important; border-radius: 25% !important; }
+
+	/* Менее круглая иконка для постинга в правом нижнем углу */
+.jXDCJf { -webkit-border-radius: 25% !important;  border-radius: 25% !important; }

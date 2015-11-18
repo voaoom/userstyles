@@ -1,0 +1,18 @@
+/*
+	Этот стиль предназначен для исправления мелких стилевых огрешностей.
+
+	@import "https://github.com/voaoom/userstyles/raw/имя_ветки/plus.google.com/design-fixes.css"
+*/
+
+	/* Обводка вокруг колокольчика, что бы было видно. */
+	/* Требует доработки: плывёт содержимое кнопки */
+.gb_X .gb_3b.gb_4b { background-position: -70px -173px !important; }
+.gb_3b { margin: 4px; padding: 0 3px; border: 1px solid #fff !important; }
+
+	/* Няшнее отоброжение кол-ва +1 и комментариев в сообщении */
+.YxJESd { margin-left: 5px !important; margin-right: 10px !important; font-size: 14px !important; font-weight: bold !important; }
+
+/*** Еврейский патч: исправляет поведение RTL-текста в заголовке ***/
+
+	/* ...в заголовке окна постинга */
+.ze2CRd * { unicode-bidi: embed; direction: ltr; }
