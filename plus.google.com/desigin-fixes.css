@@ -15,4 +15,11 @@
 /*** Еврейский патч: исправляет поведение RTL-текста в заголовке ***/
 
 	/* ...в заголовке окна постинга */
-.ze2CRd * { unicode-bidi: embed; direction: ltr; }
+.ze2CRd, .ze2CRd * { unicode-bidi: embed !important; direction: ltr !important; }
+
+	/* ...в предпросмотре комментариев */
+.UT3bRd, .UT3bRd * { unicode-bidi: embed !important; direction: ltr !important; }
+.UT3bRd.ndVxLd { unicode-bidi: normal !important; }
+
+	/* ...в комментариях */
+.PGA51c, .PGA51c * { unicode-bidi: embed !important;  direction: ltr !important; }
